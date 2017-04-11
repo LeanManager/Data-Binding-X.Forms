@@ -1,0 +1,18 @@
+﻿// Set the BindingContext on the nameEntry control to the active Person
+			//nameEntry.BindingContext = person;
+            // Create a Binding which has the property path - we want to tie to the Name property.
+			//Binding nameBinding = new Binding("Name");
+            // Add a binding to the nameEntry control using the SetBinding method - you want to tie the Binding to the Entry.TextProperty property.
+			//nameEntry.SetBinding(Entry.TextProperty, nameBinding);
+
+            //emailEntry.Text = person.Email;
+            //birthday.Date = person.Dob;
+            //favoriteSwitch.IsToggled = person.IsFavorite;
+
+            // Handle changes            
+            //emailEntry.TextChanged += (sender, e) => person.Email = emailEntry.Text;
+            //birthday.DateSelected += (sender, e) => person.Dob = birthday.Date;
+            //favoriteSwitch.Toggled += (sender, e) => person.IsFavorite = favoriteSwitch.IsToggled;
+
+
+
